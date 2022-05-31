@@ -1,0 +1,132 @@
+body {
+    background-color: #D4F1F4;
+    color: #05445E;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    color: #189AB4;
+    font-family: cursive;
+    font-size: 70px;
+    text-shadow: 3px 3px #05445E;
+}
+
+header {
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 2px 2px #189AB4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #75E6DA;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav td {
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+}
+
+nav td:hover {
+    background-color: #189AB4;
+    cursor: pointer;
+}
+
+.intro h2 {
+    font-size: 50px;
+}
+
+.intro {
+    margin: 50px;
+    padding: 50px;
+    height: 400px;
+    background-image: url("../images/intro.jpg");
+    /*Photo by Glenn Carstens-Peters on Unsplash*/
+    background-size: cover;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.main-heading {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-1,
+.list-2,
+.summary {
+    padding: 100px;
+    margin: 50px;
+    text-align: left;
+    font-size: 20px;
+    background-color: #75E6DA;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.form table {
+    width: 470px;
+    padding: 10px;
+    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    background-color: #75E6DA;
+}
+
+input[type=text],
+input[type=email] {
+    width: 290px;
+    height: 30px;
+    font-size: 20px;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 100px;
+    font-size: 20px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-color: #189AB4;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #75E6DA;
+}
+
+.footer-img img {
+    margin: 50px;
+    height: 5%;
+    width: 5%;
+    border-radius: 50%;
+}
